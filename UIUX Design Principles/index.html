@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ONLY DONE Activity 1: Writing and Enhancing CSS with Microsoft Copilot -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Styles - Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>Hi, I'm Alex Styles, a passionate graphic designer with over 5 years of experience. I specialize in creating visually stunning designs that communicate effectively. My goal is to help brands convey their message through creative visuals.</p>
+            <p>Skills: Branding, Typography, Illustration, Digital Design, UI/UX</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img src="project1.jpg" alt="Project 1">
+                        <h3>Project 1</h3>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Project 2</h3>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img src="project3.jpg" alt="Project 3">
+                        <h3>Project 3</h3>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img src="project4.jpg" alt="Project 4">
+                        <h3>Project 4</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>Feel free to reach out for collaborations or inquiries. I'd love to hear from you!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Alex Styles. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
