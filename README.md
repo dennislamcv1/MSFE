@@ -1,5 +1,5 @@
 # MSFE
-## Microsoft Front-End Developer Professional Certificate
+## Microsoft Front-End Developer Professional Certificate (6 course series)
 
 Are you ready to start a rewarding career in front-end development? This Professional Certificate Program, brought to you by Microsoft, is designed to give you the skills and tools to succeed in web development. Whether you're just starting out or looking to expand your knowledge, this program will guide you through essential front-end concepts and practices.
 
